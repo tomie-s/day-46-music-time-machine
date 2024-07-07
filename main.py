@@ -40,7 +40,7 @@ for song in top_100_songs:
         print(f"{song} doesn't exist in Spotify. Skipped.")
 
 # create playlist
-my_playlist = sp.user_playlist_create(user=f"{user_id}", name=f"{date} Billboard Top Tracks", public=False)
+my_playlist = sp.user_playlist_create(user=f"{user_id}", name=f"{date} Billboard Top 100", public=False)
 
 # add songs
 sp.playlist_add_items(playlist_id=my_playlist['id'], items=song_uri_list)
