@@ -1,2 +1,2 @@
 # day-46-music-time-machine
- Program that creates a Spotify playlist for the top 100 songs for a specified date.
+ The program uses a web scrape to get the Top 100 songs from Billboard.com and using the Spotify API, creates a Spotify playlist for the songs.
